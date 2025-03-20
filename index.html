@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Brechó Online</title>
 </head>
+
 <body>
     <header>
         <h1>Brechó Online</h1>
@@ -20,32 +23,52 @@
         </div>
     </header>
 
-    <section id="cloth_selection">
-        <h3 class="section_title">Produtos</h3>
-        <div class="carousel">
-            <img src="clothes/shirt_1.png" alt="Camisa 1">
-            <img src="clothes/shirt_2.png" alt="Camisa 2">
-            <img src="clothes/shirt_3.png" alt="Camisa 3">
-            <img src="clothes/shirt_4.png" alt="Camisa 4">
-        </div>
-        <div class="carousel">
-            <img src="clothes/pants_1.png" alt="Calça 1">
-            <img src="clothes/pants_2.png" alt="Calça 2">
-            <img src="clothes/pants_3.png" alt="Calça 3">
-            <img src="clothes/pants_4.png" alt="Calça 4">
-        </div>
-    </section>
+    <main>
+        <section id="cloth_selection">
+            <h3 class="section_title">Produtos</h3>
 
-    <section id="about_us">
-        <h3 class="section_title">Sobre nós</h3>
-        <p>Somos um brechó com a missão de oferecer produtos de alta qualidade acessíveis a todas as pessoas.</p>
-    </section>
-    
+            <div class="carousel">
+                <input name='slide_shirts' type="radio" checked>
+                <input name='slide_shirts' type="radio">
+                <input name='slide_shirts' type="radio">
+                <input name='slide_shirts' type="radio">
+
+                <div class="carousel_imgs">
+                    <img src="clothes/shirt_1.png" alt="Camisa 1">
+                    <img src="clothes/shirt_2.png" alt="Camisa 2">
+                    <img src="clothes/shirt_3.png" alt="Camisa 3">
+                    <img src="clothes/shirt_4.png" alt="Camisa 4">
+                </div>
+            </div>
+
+            <div class="carousel">
+                
+                <input name='slide_pants' type="radio" checked>
+                <input name='slide_pants' type="radio">
+                <input name='slide_pants' type="radio">
+                <input name='slide_pants' type="radio">
+                <div class="carousel_imgs">
+                    <img src="clothes/pants_1.png" alt="Calça 1">
+                    <img src="clothes/pants_2.png" alt="Calça 2">
+                    <img src="clothes/pants_3.png" alt="Calça 3">
+                    <img src="clothes/pants_4.png" alt="Calça 4">
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <section id="about_us">
+            <h3 class="section_title">Sobre nós</h3>
+            <p>Somos um brechó com a missão de oferecer produtos de alta qualidade acessíveis a todas as pessoas.</p>
+        </section>
+
+    </main>
 
     <footer>
         <p>©2025 Brechó Online. Todos os direitos reservados.</p>
     </footer>
-    
-    
+
 </body>
+
 </html>
