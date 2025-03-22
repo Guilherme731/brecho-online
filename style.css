@@ -4,11 +4,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: rgb(255, 209, 145);
+}
+
+#menu{
+margin-left: auto;
+}
+#menu ul{
+    display: flex;
+}
+#menu li{
+    list-style: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
 .section_title{
     font-size: 30px;
+    margin-top: 0;
+    padding-top: 10px;
 }
 
 #cloth_selection{
+    
     width: 100%;
     display: grid;
     place-items: center;
@@ -55,4 +77,35 @@ body{
 
 .carousel input:nth-child(4):checked ~ .carousel_imgs{
     transform: translateX(-300%);
+}
+
+#about_us{
+    background-color: rgb(255, 209, 145);
+    display: grid;
+    place-items: center;
+
+}
+
+#formContato{
+    background-color: rgba(161, 161, 161, 0.5);
+    padding: 20px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 10px;
+    width: 13%;
+}
+#formContato input{
+    width: 100%;
+    margin-bottom: 7px;
+}
+#formContato p{
+    font-size: 20px;
+    text-align: center;
+}
+#formContato button{
+    font-size: 15px;
+    padding: 3px 10px;
+    border: solid black 2px;
+    border-radius: 4px;
 }
