@@ -42,6 +42,17 @@ margin-left: auto;
     margin-bottom: 20px;
 }
 
+
+#cloth_selection button{
+    width: 200px;
+    font-size: 35px;
+    border: solid rgb(0, 0, 0) 7px;
+    background-color: rgb(67, 255, 102);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .carousel{
     overflow: hidden;
     width: 600px;
